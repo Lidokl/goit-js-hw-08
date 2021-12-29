@@ -67,7 +67,7 @@ import throttle from 'lodash.throttle';
 //   console.log(formData);
 // });
 
-
+                //  1 варіант
 
 const feedbackForm = document.querySelector(".feedback-form");
 const STORAGE_KEY = "feedback-form-state";
@@ -113,7 +113,7 @@ feedbackForm.addEventListener("submit", onFormSubmit);
 
 
 
-                            // 3 варіант
+                            // 3 варіант-не є правильний хоч і працює
 
 // import throttle from 'lodash.throttle';
 
